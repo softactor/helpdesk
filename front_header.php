@@ -1,5 +1,6 @@
 <?php
 session_start();
+date_default_timezone_set("Asia/Dhaka");
 $page_name  =   basename($_SERVER['PHP_SELF']);
 include 'connection/connect.php';
 include 'helper/utilities.php';
